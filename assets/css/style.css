@@ -1,6 +1,5 @@
 html, body {
     height: 100%;
-
 }
 
 html, body, main, main.container {
@@ -8,7 +7,7 @@ html, body, main, main.container {
 }
 
 .navbar-brand {
-    background-color: lightblue;
+    background-color: #4aaaa5;
     color: white;
 }
 
@@ -45,4 +44,71 @@ main.container {
 
 .panel.panel-default {
     padding-bottom: 20px;
+}
+
+.panel-content img {
+    padding-right: 10px;
+}
+
+main span {
+    line-height: 2.0em;
+}
+
+.panel-heading {
+    padding-left: 0px;
+}
+
+#portOne {
+    background-image: url("../images/hangmanGame.jpg");
+    background-size: cover;
+    height: 214px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#portTwo {
+    background-image: url("../images/rpgGame.jpg");
+    background-size: cover;
+    height: 214px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#portThree {
+    background-image: url("../images/triviaGame.jpg");
+    background-size: cover;
+    height: 214px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#portFour {
+    background-image: url("../images/rutgersWidget.jpg");
+    background-size: cover;
+    height: 214px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#portFive {
+    background-image: url("../images/rockPaperScissors.jpg");
+    background-size: cover;
+    height: 214px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.portText {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    bottom: 10px;
+    margin: 0;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0;
+    width: 100%;
+    height: 40px; 
+    line-height: 40px; 
+    text-align: center;
 }
