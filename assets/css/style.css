@@ -8,7 +8,6 @@ html, body, main, main.container {
 
 .navbar-brand {
     background-color: #4aaaa5;
-    color: white;
 }
 
 main.container {
@@ -113,3 +112,4 @@ main span {
     margin-right: 20px;
     margin-bottom: 15px;
 }
+
